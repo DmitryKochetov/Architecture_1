@@ -1,8 +1,8 @@
 package ModelEliments;
 
 public class Camera {
-    public Point3D Location;
-    public Angle3D Angle;
+    public Point3D location;
+    public Angle3D angle;
 
 public void Rotate(Angle3D n){
 }

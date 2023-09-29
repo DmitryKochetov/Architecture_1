@@ -9,7 +9,7 @@ public class Scene <T extends Scene> {
     public int id;
     public List<PoligonalModel> models;
     public List<Flash> flashes;
-    public List<Camera> Cameras;
+    public List<Camera> cameras;
 
 public Scene(PoligonalModel[] models, Flash[] flashes, Camera[] cameras) {
         this.models = models;

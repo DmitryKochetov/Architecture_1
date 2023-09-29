@@ -6,12 +6,12 @@ import java.util.List;
 import InMemoryModel.iModelChangeObserver;
 
 public class PoligonalModel {
-    public List<Poligon> Poligons;
-    public List<Texture> Textures;
+    public List<Poligon> poligons;
+    public List<Texture> textures;
 
      public PoligonalModel(texture[] textures) {
         this.textures = textures;
-        this.Poligons = new ArrayList<Poligon>();
+        this.poligons = new ArrayList<Poligon>();
     }
 
 }
